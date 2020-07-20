@@ -1,0 +1,13 @@
+# include <iostream>
+using namespace std;
+int main ()
+{
+    int s,v1,v2,t1,t2,r1,r2;
+    cin >>s>>v1>>v2>>t1>>t2;
+    r1=(s*v1)+(2*t1);
+    r2=(s*v2)+(2*t2);
+    if (r1<r2) cout <<"First"<<endl;
+    else if (r1==r2) cout <<"Friendship"<<endl;
+    else cout <<"Second"<<endl;
+
+}
